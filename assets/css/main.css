@@ -2535,6 +2535,44 @@ input, select, textarea {
 					color: #fff;
 					border-color: #616763;
 				}
+/*side form*/
+.sidebox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin: 2em 0;
+  align-items: flex-start;
+}
+
+.sidebox-photo {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.sidebox-photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebox-photo .caption {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #3366cc;
+  line-height: 1.4;
+}
+
+.sidebox-text {
+  flex: 1 1 300px;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.sidebox-text p {
+  margin-bottom: 1.2em;
+}
+
 
 /* Main */
 
